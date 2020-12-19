@@ -1,0 +1,8 @@
+.todo__container {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .todo__container {
+    flex-direction: column;
+  }
+}
